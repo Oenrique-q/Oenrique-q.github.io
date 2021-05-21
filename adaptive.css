@@ -1,0 +1,61 @@
+@media only screen and (max-width:992px){
+    /*header*/
+    .header{
+        text-align: center;
+    }
+    .hero-main{
+        margin-top: 10rem;
+    }
+    /*about*/
+    .about{
+        text-align: center;
+    }
+
+    .about-gray-line{
+        margin: 0 auto;
+    }
+
+    /*slider*/
+    .procrutka{
+        background: #fff; /* цвет фона, белый */
+        border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+        overflow-y: scroll; /* прокрутка по вертикали */
+    }
+
+    .slides-content{
+        text-align: center;
+    }
+
+    .footer-input-block{
+        margin-top: 3rem;
+    }
+
+    .footer-icon{
+        margin: 0 auto;
+    }
+
+    p.footer-p{
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .main{
+        padding-top: 10rem; 
+    }
+}
+
+@media only screen and (max-width:480px){
+    .header-text{
+        font-size: 36px;
+    }    
+}
+
+@media only screen and (max-width:365px){
+    h1.hero-header{
+        font-size: 66px;
+    }
+
+    .header-text{
+        font-size: 28px;
+    }    
+}
